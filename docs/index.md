@@ -6,7 +6,9 @@ slug: /
 
 # Data Engineering with Databricks
 
-👉 Navigate to [Main Menu](/docs/databricks-training/demo-content/00-course-overview)
+:::tip For more details click 
+👉 [**Databricks Program Details**](/docs/databricks-training/demo-content/00-course-overview)
+:::
 
 
 ## 🕒 Course Duration
