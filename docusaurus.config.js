@@ -66,14 +66,14 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'databricksTraining',
           position: 'left',
-          label: 'Webinar Topics',
+          label: 'About Program',
           to: '/docs',
         },
-    {
-      label: 'GitHub Repo',
-      href: 'https://github.com/beemstec/cicd-with-snowcli-demo',
-      position: 'left',
-    },
+    // {
+    //   label: 'GitHub Repo',
+    //   href: 'https://github.com/beemstec/cicd-with-snowcli-demo',
+    //   position: 'left',
+    // },
 
       ],
     },
