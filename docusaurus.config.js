@@ -64,7 +64,7 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'databricksTraining',
           position: 'left',
           label: 'Webinar Topics',
           to: '/docs',
