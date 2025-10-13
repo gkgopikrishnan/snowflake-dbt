@@ -11,7 +11,9 @@ module.exports = {
         'databricks-training/demo-content/00-course-overview',
         'databricks-training/demo-content/02-topics-overview',
         'databricks-training/demo-content/09-registration-link',
+        'demo-video/Sample-Recording-Exploring Collections',
         'databricks-training/demo-content/10-contact-details',
+
         // {
         //   type: 'category',
         //   label: 'Trainer Introduction',
