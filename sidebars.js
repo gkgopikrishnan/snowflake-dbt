@@ -9,6 +9,9 @@ module.exports = {
       label: 'Databricks AI & Data Engineering',
       items: [
         'databricks-training/demo-content/00-course-overview',
+        'databricks-training/demo-content/02-topics-overview',
+        'databricks-training/demo-content/09-registration-link',
+        'databricks-training/demo-content/10-contact-details',
         // {
         //   type: 'category',
         //   label: 'Trainer Introduction',
@@ -18,13 +21,12 @@ module.exports = {
         //     'databricks-training/demo-content/01-trainer-introduction-projects',
         //   ],
         // },
-        {
-          type: 'category',
-          label: 'Topics & Modules',
-          items: [
-            'databricks-training/demo-content/02-topics-overview',
-          ],
-        },
+        // {
+        //   type: 'category',
+        //   items: [
+        //     'databricks-training/demo-content/02-topics-overview',
+        //   ],
+        // },
         // {
         //   type: 'category',
         //   label: 'Job Assistance',
@@ -39,20 +41,20 @@ module.exports = {
         //     'databricks-training/demo-content/07-demo-walkthrough',
         //   ],
         // },
-        {
-          type: 'category',
-          label: 'Registration',
-          items: [
-            'databricks-training/demo-content/09-registration-link',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Contact',
-          items: [
-            'databricks-training/demo-content/10-contact-details',
-          ],
-        },
+        // {
+        //   type: 'category',
+        //   label: 'Registration',
+        //   items: [
+        //     'databricks-training/demo-content/09-registration-link',
+        //   ],
+        // },
+        // {
+        //   type: 'category',
+        //   label: 'Contact',
+        //   items: [
+        //     'databricks-training/demo-content/10-contact-details',
+        //   ],
+        // },
       ],
     },
   ],

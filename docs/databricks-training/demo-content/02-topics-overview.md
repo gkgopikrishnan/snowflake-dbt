@@ -1,7 +1,7 @@
 ---
 id: 02-topics-overview
 title: Topics Overview
-sidebar_label: Topics Overview
+sidebar_label: Detailed Topics
 ---
 
 # 📚 Detailed Databricks Modules & Hands-Ons
