@@ -4,7 +4,7 @@ title: Topics Overview
 sidebar_label: Topics Overview
 ---
 
-# 📚 Detailed Databricks Modules & Hands-On Practicals
+# 📚 Detailed Databricks Modules & Hands-Ons
 
 Our Databricks program is structured into modules that ensure **strong conceptual understanding, hands-on learning, and interview readiness**.
 

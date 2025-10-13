@@ -9,4 +9,6 @@ sidebar_label: Contact Us
 For any queries, reach us at:  
 📧 **contact@beems.in**  
 📱 **+91-9176904546**  
+👉 [**Message Us on WhatsApp**](https://wa.me/919176904546)  
+
 
