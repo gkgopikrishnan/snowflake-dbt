@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Setting up CI/CD Workflows for Snowflake',
+  title: '🧱 Databricks Demo - Building Data & AI Solutions',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -74,7 +74,6 @@ const config = {
     //   href: 'https://github.com/beemstec/cicd-with-snowcli-demo',
     //   position: 'left',
     // },
-
       ],
     },
     footer: {
