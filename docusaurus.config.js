@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '🧱 Databricks Demo - Building Data & AI Solutions',
+  title: '🏗️ Data Engineering with Snowflake and DBT',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -37,8 +37,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
 
         theme: {
@@ -64,16 +62,11 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'databricksTraining',
+          sidebarId: 'snowflakeTraining',
           position: 'left',
           label: 'About Program',
           to: '/docs',
         },
-    // {
-    //   label: 'GitHub Repo',
-    //   href: 'https://github.com/beemstec/cicd-with-snowcli-demo',
-    //   position: 'left',
-    // },
       ],
     },
     footer: {

@@ -1,67 +1,97 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ff4600;
-  --ifm-color-primary-dark: #4990d9;
-  --ifm-color-primary-darker: #3d7dc0;
-  --ifm-color-primary-darkest: #3268a3;
-  --ifm-color-primary-light: #77bbfa;
-  --ifm-color-primary-lighter: #9fcefc;
-  --ifm-color-primary-lightest: #c7e1fd;
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  --ifm-background-color: #fff;
+  --ifm-navbar-background-color: #fff;
+  --ifm-navbar-link-color: #333;
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+  --ifm-footer-background-color: #f8f9fa;
+  --ifm-menu-background-color: #fff;
+  --ifm-code-background: #f6f8fa;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #5ba9f9;
-  --ifm-color-primary-dark: #4990d9;
-  --ifm-color-primary-darker: #3d7dc0;
-  --ifm-color-primary-darkest: #3268a3;
-  --ifm-color-primary-light: #77bbfa;
-  --ifm-color-primary-lighter: #9fcefc;
-  --ifm-color-primary-lightest: #c7e1fd;
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+/* Main background and container tweaks */
+.main-wrapper,
+.theme-doc-main-container,
+#__docusaurus {
+  background: #fff !important;
+  color: #222 !important;
 }
 
-/* Reduce font size of the page title rendered from front matter */
-.theme-doc-markdown h1,
-.theme-doc-content h1 {
-  font-size: 2rem; /* or 1.75rem, 24px, etc. */
-  font-weight: 600;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+/* Sidebar background and menu tweaks */
+.theme-doc-sidebar-container, .menu__list {
+  background: #fff !important;
+  border-right: 1px solid #eaeaea;
 }
 
-/* Top-level category like 'Snowflake Training' */
-.menu__link.menu__link--sublist {
-  font-size: 0.95rem; /* or 14px */
-  font-weight: 600; /* bolder than normal text */
-}
-
-/* Subcategory like 'Module 01: ...' */
-.menu__list-item .menu__list .menu__link.menu__link--sublist {
-  font-size: 0.9rem; /* or 13px */
+.menu__link {
+  color: #1a237e;
   font-weight: 500;
 }
 
-/* Document links like '1. Traditional Data Warehousing' */
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--ifm-color-primary-lightest) !important;
+  color: var(--ifm-color-primary-darkest) !important;
+  border-radius: 5px;
+}
+
+/* Code block and inline code styling */
+.theme-code-block,
+.prism-code {
+  background: #f6f8fa !important;
+  color: #2d2d2d !important;
+  font-family: "Fira Mono", "Consolas", "Menlo", monospace !important;
+  border-radius: 5px;
+}
+
+.codeBlockLines_line__2nO6W {
+  background: var(--docusaurus-highlighted-code-line-bg) !important;
+}
+
+/* Link styles */
+a,
+/* .markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: underline dotted 1.5px;
+  font-weight: 500;
+} */
+
+a:hover,
+.markdown a:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Heading, sidebar, and main text styling per your snippet (as previously defined) */
+.theme-doc-markdown h1,
+.theme-doc-content h1 {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: var(--ifm-color-primary-darkest);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu__link.menu__link--sublist {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary-dark);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu__list-item .menu__list .menu__link.menu__link--sublist {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary-darker);
+}
+
 .menu__list-item .menu__list .menu__list .menu__link {
-  font-size: 0.85rem; /* or 12px */
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
-/* Justify all paragraph text on docs pages */
-.markdown p {
-  text-align: justify;
-}
-
-/* Optional: Justify list items too */
+.markdown p,
 .markdown li {
   text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.55;
+  color: #212529;
 }
-
