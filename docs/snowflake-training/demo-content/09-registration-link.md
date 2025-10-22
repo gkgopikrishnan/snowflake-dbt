@@ -43,11 +43,13 @@ sidebar_label: Register for Demo
       fontWeight: "600",
       fontSize: "0.95rem",
       display: "flex",
-      alignItems: "center",
+      alignItems: "bottom",
       justifyContent: "center",
       gap: "8px",
       boxShadow: "0 3px 8px rgba(37, 211, 102, 0.25)",
       transition: "transform 0.2s ease, box-shadow 0.2s ease",
+      minHeight: "50px",
+      maxHeight: "50px",
     }}
     onMouseOver={(e) => {
       e.currentTarget.style.transform = 'scale(1.05)';
