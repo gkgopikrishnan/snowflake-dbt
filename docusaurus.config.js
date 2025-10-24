@@ -11,7 +11,7 @@ const config = {
   tagline: '',
   favicon: 'img/favicon.ico',
 
-  url: 'https://celebrated-faun-5a3353.netlify.app',
+  url: 'https://snowflake-dbt-kickoff.netlify.app',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',

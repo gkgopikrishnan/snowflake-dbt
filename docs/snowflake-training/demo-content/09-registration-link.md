@@ -1,7 +1,7 @@
 ---
 id: 09-registration-link
-title: Register for Demo
-sidebar_label: Register for Demo
+title: Demo Details
+sidebar_label: Demo Details
 ---
 #
 
