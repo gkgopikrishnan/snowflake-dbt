@@ -28,3 +28,4 @@ yarn-error.log*
 /supporting-scripts
 
 create-dummy-docs.jsgit-docs/
+git-docs/
