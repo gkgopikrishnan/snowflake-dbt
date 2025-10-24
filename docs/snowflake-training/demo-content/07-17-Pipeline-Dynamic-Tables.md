@@ -5,9 +5,12 @@ title: ETL Pipeline with Streams and Tasks
 
 <div class="custom-page-style">
 
-# **🏗️ Snowflake Dynamic Tables ETL Pipeline — End-to-End Hands-on**
+#
+## **🏗️  ETL Pipeline using Dynamic Tables**
 
-This guide walks you through building a **multi-layer ETL pipeline** in Snowflake using **Dynamic Tables** — the modern way to automate incremental transformations **without Tasks or Streams**.
+💡 This guide walks you through building a **multi-layer ETL pipeline** in Snowflake using 
+**Dynamic Tables** — the modern way to automate incremental transformations **without Tasks 
+or Streams**.
 
 ---
 

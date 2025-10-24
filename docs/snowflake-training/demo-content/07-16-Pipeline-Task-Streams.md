@@ -6,9 +6,9 @@ title: ETL Pipeline with Streams and Tasks
 <div class="custom-page-style">
 
 #
-## Traditional ETL Pipeline using *"Streams + Tasks"*
+## **🏗️ Traditional ETL Pipeline using Streams + Tasks**
 
-This example demonstrates a **multi-layer employee ETL pipeline** using **Snowflake Streams + Tasks**, with **separate schemas for raw, bronze, silver, and gold layers**.  
+💡 This example demonstrates a **multi-layer employee ETL pipeline** using **Snowflake Streams + Tasks**, with **separate schemas for raw, bronze, silver, and gold layers**.  
 Each step includes **purpose, explanation, and expected output**.
 
 ---

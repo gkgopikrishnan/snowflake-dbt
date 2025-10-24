@@ -67,6 +67,11 @@ const config = {
           label: 'About Program',
           to: '/docs',
         },
+        {
+          label: 'GitHub Repo',
+          href: 'https://github.com/beemstec/snowflake-dynamic-table-demo',
+          position: 'left',
+        },
       ],
     },
     footer: {
