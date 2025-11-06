@@ -20,19 +20,25 @@ module.exports = {
               type: 'doc',
               //  'snowflake-training/Module-01-Cloud-Data-Warehousing-Concepts/module-07-data-loading-techniques-07-15-introduction-to-dynamic-table',
               id: 'snowflake-training/demo-content/module-07-data-loading-techniques-07-15-introduction-to-dynamic-table',
-              label: 'Demo Dynamic Table',
+              label: 'Introduction to Dynamic Table',
               className: 'custom-sidebar-item'
             },
             {
               type: 'doc',
               id: 'snowflake-training/demo-content/module-07-data-loading-techniques-07-16-etl-pipeline-with-streams-tasks',
-              label: 'Traditional ETL Pipeline with Task and Streams',
+              label: 'ETL Pipeline with Task & Streams (Traditional  Approch)',
               className: 'custom-sidebar-item'
             },          
             {
               type: 'doc',
               id: 'snowflake-training/demo-content/module-07-data-loading-techniques-07-17-etl-pipeline-with-dynamic-tables',
               label: 'ETL Pipeline with Dynamic Tables',
+              className: 'custom-sidebar-item'
+            },
+            {
+              type: 'doc',
+              id: 'snowflake-training/demo-content/module-07-data-loading-techniques-07-18-materialized-vs-dynamic-tables',
+              label: 'Materialized Views Vs Dynamic Tables',
               className: 'custom-sidebar-item'
             }
           ]
