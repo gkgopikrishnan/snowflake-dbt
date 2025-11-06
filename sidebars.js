@@ -1,5 +1,5 @@
 /**
- * Sidebar configuration for snowflake Job-Oriented Training Demo
+ *  Configuration for snowflake Job-Oriented Training Demo
  */
 
 module.exports = {
